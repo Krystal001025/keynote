@@ -1,0 +1,28 @@
+*{margin:0;padding:0}
+a{text-decoration: none}
+body{background:url(./background.png);}
+main{display: flex;align-items: center;justify-content: center;height: 900px;text-align: center}
+kbd{width: 70px;
+	height: 70px;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: black;
+    position:relative;
+    box-shadow: 10px 5px 5px grey;}
+span{
+    text-transform: uppercase;
+    margin-left: 10px;
+    display: block;
+    text-align: left;
+    padding-left: 0;
+    font-size: 15px;
+	color:white;}
+button{
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+    position: absolute;
+    right: 2px;
+    bottom: 3px;
+	border: 0px}
